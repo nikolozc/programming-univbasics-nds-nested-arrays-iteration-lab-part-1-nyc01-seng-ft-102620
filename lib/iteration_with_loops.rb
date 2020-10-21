@@ -6,7 +6,7 @@ def find_even_values(src)
   outer = 0 
   inner = 0 
   while (outer <= src.size) do 
-    while(inner < src[0].size) do 
+    while(inner <= src[0].size) do 
       if(src[outer][inner] % 2 == 0)
         puts src[outer][inner]
       end 
