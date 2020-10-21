@@ -10,7 +10,7 @@ def find_even_values(src)
       if(src[outer][inner] % 2 == 0)
         puts src[outer][inner]
       end 
-      puts src[outer][in]
+      puts src[outer][inner]
       inner+=1 
     end 
     outer+=1 
