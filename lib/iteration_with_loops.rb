@@ -8,7 +8,7 @@ def find_even_values(src)
   while (outer < src.size) do 
     while(inner < src[0].size) do 
       if(src[outer][inner] % 2 == 0)
-        puts src[outer][inner]
+        put src[outer][inner]
       end 
       inner+=1 
     end 
